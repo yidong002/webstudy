@@ -1,0 +1,7 @@
+/* pages/switch/switchfor.wxss */
+.title{
+  contain: none;
+  width: max-content;
+  height: initial;
+  color:red;
+}

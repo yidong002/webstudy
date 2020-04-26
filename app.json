@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/person/person",
+    "pages/VIPshopping/VIPshopping",
+    "pages/message/message",
+    "pages/shopping/shopping"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#CC0000",
+    "navigationBarTitleText": "英语在线",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "backgroundColor": "#FFF",
+    "selectedColor": "#FF0000",
+    "color": "#000",
+    "list": [
+      {
+        "pagePath":"pages/index/index",
+        "text":"首页",
+        "selectedIconPath":"imgs/homeS.png",
+        "iconPath":"imgs/home.png"
+      },
+      {
+      "pagePath": "pages/message/message",
+      "text": "点评",
+      "iconPath":"imgs/message.png",
+      "selectedIconPath":"imgs/messageS.png"
+      },
+      {
+        "pagePath":"pages/VIPshopping/VIPshopping",
+        "text":"会员购",
+        "iconPath":"imgs/market.png",
+        "selectedIconPath":"imgs/marketS.png"
+      },
+      {
+        "pagePath":"pages/shopping/shopping",
+        "text":"购物车",
+        "selectedIconPath":"imgs/shoppingS.png",
+        "iconPath":"imgs/shopping.png"
+      },
+      {
+        "pagePath":"pages/person/person",
+        "text":"个人资料",
+        "selectedIconPath":"imgs/personalS.png",
+        "iconPath":"imgs/personal.png"
+      }
+  ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

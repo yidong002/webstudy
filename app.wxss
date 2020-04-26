@@ -1,0 +1,6 @@
+/**app.wxss**/
+@import './style/iconfont.wxss';
+
+view,navigator,swiper,swiper-item{
+  box-sizing: border-box;
+}
